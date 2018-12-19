@@ -1,3 +1,6 @@
+# what is this ?
+redmineのactivityをtwitterっぽく表示するcssです
+
 # 導入方法
 ## firefoxの場合
 1. アドオンでStylusを導入します(https://addons.mozilla.org/ja/firefox/addon/styl-us/)
@@ -8,8 +11,9 @@
 ## chromeの場合
 
 # 仕様
-アイコンが同じ画像しかできない><
-あらいさん, かばんちゃん, さーばるちゃん, ボスのbase64は埋め込んであるので好きな画像でできます
+アイコンが同じ画像しかできない><  
+あらいさん, かばんちゃん, さーばるちゃん, ボスのbase64は埋め込んであるのでお好みでどうぞ
+
 
 # 参考
 ## 画像
