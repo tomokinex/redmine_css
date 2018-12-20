@@ -8,6 +8,7 @@ user_num = input()
 
 print('path to image:')
 image_file = input()
+image_file = image_file.strip('\' ')
 
 image = Image.open(image_file)
 w, h = image.size
@@ -25,8 +26,6 @@ image_resized = image.resize(map(int, (new_w, new_h)))
 buffered = BytesIO()
 image_resized.save(buffered, format='JPEG')
 b64 = base64.b64encode(buffered.getvalue()).decode()
-
-user_num = 103
 
 write_lines = [f'a.user[href="/users/{user_num}"] {{',
                f'  background-image: url(data:image/jpeg;base64,{b64});',
