@@ -9,20 +9,20 @@ redmineのactivityをtwitterっぽく表示するcssです
 1. 適用先　→　＋　→　URLから始まる でhttps://redmine.hogehoge/activity を入力(hogehogeは適宜urlを参照)
 
 ## chromeの場合
-firefoxとだいたい一緒です  
+firefoxとだいたい一緒です
 https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=ja
 
 # 仕様
-~~アイコンが同じ画像しかできない~~   
-~~あらいさん, かばんちゃん, さーばるちゃん, ボスのbase64は埋め込んであるのでお好みでどうぞ~~  
-優秀なcommiterによって, できるようになりました  
-自分のuseridに対して, アイコンにしたい画像をbase64でencodeして貼り付ければ変更できます  
+~~アイコンが同じ画像しかできない~~
+~~あらいさん, かばんちゃん, さーばるちゃん, ボスのbase64は埋め込んであるのでお好みでどうぞ~~
+優秀なcommiterによって, できるようになりました
+自分のuseridに対して, アイコンにしたい画像をbase64でencodeして貼り付ければ変更できます
 以下がテンプレになります
 ```css
 a.user[href="/users/'自分のid'"] {
   background-image: url("base64にencodeした画像");
   display: inline-block;
-  height: 75px;
+  height: 78px;
   background-position: 0px 18px;
   background-repeat: no-repeat;
   background-size: 50px
@@ -33,5 +33,5 @@ a.user[href="/users/'自分のid'"] {
 # 参考
 ## 画像
 https://togetter.com/li/1088229
-## css 
+## css
 https://3owebcreate.com/web/coding/chat_twitter_css
