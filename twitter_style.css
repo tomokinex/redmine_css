@@ -1,12 +1,14 @@
 @charset "UTF-8";
 
 /*日付とか消す*/
-div#content h2 {
+body.controller-activities div#content h2 {
     display: none;
 }
-div#content p {
+
+body.controller-activities div#content p.subtitle {
     display: none;
 }
+
 /*タイムラインっぽくするwraper*/
 div#activity {
     padding: 0;
@@ -81,11 +83,11 @@ dd span.author {
     width: 150px;
 }
 
-.icon {
+.icon-issue-note, .icon-issue {
   height: 0px;
   padding-left: 0px;
-  background-size: cover;
 }
+
 
 /*アイコン画像のwrapper*/
 dl dt {
@@ -93,7 +95,7 @@ dl dt {
   height: 50px;
 }
 /*入力時間*/
-span.time {
+.issue-note span.time, .issue span.time {
   font-size: 10px;
   position: relative;
   top: 60px;
@@ -108,7 +110,7 @@ dl dt a {
   white-space: nowrap;
 }
 /*project名*/
-span.project {
+.issue-note span.project, .issue span.project {
   font-size: 14px;
   position: relative;
   top: 20px;
