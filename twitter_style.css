@@ -83,7 +83,7 @@ dd span.author {
     width: 150px;
 }
 
-.icon-issue-note, .icon-issue {
+.icon-issue-note, .icon-issue, .icon-time-entry {
   height: 0px;
   padding-left: 0px;
 }
@@ -95,10 +95,10 @@ dl dt {
   height: 50px;
 }
 /*入力時間*/
-.issue-note span.time, .issue span.time {
+.issue-note span.time, .issue span.time, .time-entry span.time {
   font-size: 10px;
   position: relative;
-  top: 60px;
+  top: 30px;
   left: 500px;
 }
 /*project名*/
@@ -110,7 +110,7 @@ dl dt a {
   white-space: nowrap;
 }
 /*project名*/
-.issue-note span.project, .issue span.project {
+.issue-note span.project, .issue span.project, .time-entry span.project {
   font-size: 14px;
   position: relative;
   top: 20px;
