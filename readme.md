@@ -13,9 +13,9 @@ firefoxとだいたい一緒です
 https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=ja
 
 # 仕様
-~~アイコンが同じ画像しかできない~~
+~~アイコンが同じ画像しかできない~~  
 ~~あらいさん, かばんちゃん, さーばるちゃん, ボスのbase64は埋め込んであるのでお好みでどうぞ~~  
-優秀なcommiterによって, できるようになりました
+優秀なcommiterによって, できるようになりました  
 自分のuseridに対して, アイコンにしたい画像をbase64でencodeして貼り付ければ変更できます  
 以下がテンプレになります
 ```css
@@ -30,8 +30,6 @@ a.user[href="/users/'自分のid'"] {
 ```
 画像サイズが大きすぎると落ちるので, 100×100ぐらいに縮小してからencodeしてください
 
-# 参考
-## 画像
-https://togetter.com/li/1088229
-## css
-https://3owebcreate.com/web/coding/chat_twitter_css
+## 追記
+add_icon.pyで上記の操作ができるようになりました  
+python 3.6以上で動作するようです  
