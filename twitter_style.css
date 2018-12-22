@@ -9,8 +9,14 @@ body.controller-activities div#content p.subtitle {
     display: none;
 }
 
+
+body.controller-issues h4 {
+    border: none;
+    margin-bottom: 0px
+}
+
 /*タイムラインっぽくするwraper*/
-div#activity {
+div#activity, div#history {
     padding: 0;
     background: #ffffff;
     overflow: hidden;
@@ -22,8 +28,31 @@ div#activity {
     overflow-y: scroll;
 }
 
+/* issueの見た目 */
+div#history div[id^="change"] {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-left: 0px;
+    margin-bottom: 5px;
+    border-bottom: solid 1px #eeeeee;
+    overflow: hidden;
+    font-size: 15px;
+    margin-left: 2em;
+}
+
+div#history h4 {
+    border: none;
+}
+
+div#history p {
+    margin-bottom: 10px;
+}
+
+
 /*日付をヘッダーっぽくする*/
-div#activity h3 {
+div#activity h3, div#history h3  {
     background: #58aeed;
     padding: 10px;
     text-align: center;
@@ -83,7 +112,7 @@ dd span.author {
     width: 150px;
 }
 
-.icon-issue-note, .icon-issue, .icon-time-entry {
+.icon-issue-note, .icon-issue, .icon-time-entry, .icon-issue-closed {
   height: 0px;
   padding-left: 0px;
 }
@@ -95,10 +124,10 @@ dl dt {
   height: 50px;
 }
 /*入力時間*/
-.issue-note span.time, .issue span.time, .time-entry span.time {
+.issue-note span.time, .issue span.time, .time-entry span.time, .issue-closed span.time {
   font-size: 10px;
   position: relative;
-  top: 30px;
+  top: 10px;
   left: 500px;
 }
 /*project名*/
@@ -110,7 +139,7 @@ dl dt a {
   white-space: nowrap;
 }
 /*project名*/
-.issue-note span.project, .issue span.project, .time-entry span.project {
+.issue-note span.project, .issue span.project, .time-entry span.project, .issue-closed span.project {
   font-size: 14px;
   position: relative;
   top: 20px;
