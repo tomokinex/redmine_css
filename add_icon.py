@@ -36,5 +36,5 @@ write_lines = [f'a.user[href="/users/{user_num}"] {{',
                '  background-size: 50px;',
                '}\n']
 
-with open(f'twitter_style.css', 'a') as f:
+with open(f'twitter_style_all.css', 'a') as f:
     f.write('\n'.join(write_lines))
