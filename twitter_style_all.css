@@ -30,6 +30,10 @@ div#content{
     background-color: #38444d;
     width: 100%;
 }
+#main-menu li a.selected{
+    background-color: #38444d;
+    color: #ffffff;
+}
 div#sidebar{
     display: none;
 }
@@ -101,12 +105,9 @@ dd span.author {
   padding-left: 0px;
 }
 
-dt.icon-issue-closed, dt.icon-issue-edit{
-  display: none;
-}
 /*アイコン画像のwrapper*/
 dl dt {
-  width: 50px;
+  width: 100px;
   height: 50px;
 }
 /*入力時間*/
