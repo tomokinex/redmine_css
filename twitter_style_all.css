@@ -34,10 +34,14 @@ div#content{
     background-color: #38444d;
     color: #ffffff;
 }
-div#sidebar{
-    display: none;
+div#sidebar[src^="activity"]{
+  background-color: #38444d;
+  display: none;
 }
 
+div#main{
+  background-color: #38444d;
+}
 
 /*日付をヘッダーっぽくする*/
 div#activity h3 {
