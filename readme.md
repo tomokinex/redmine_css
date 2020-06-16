@@ -4,9 +4,14 @@ redmineのactivityをtwitterっぽく表示するcssです
 # 導入方法
 ## firefoxの場合
 1. アドオンでStylusを導入します(https://addons.mozilla.org/ja/firefox/addon/styl-us/)
-1. アドオンマネージャー　→　Stylus　→　スタイル管理　→　新スタイルを作成
-1. twitter_style.cssの内容をコピペ
-1. 適用先　→　＋　→　URLから始まる でhttps://redmine.hogehoge/activity を入力(hogehogeは適宜urlを参照)
+1. アドオンマネージャー　→　Stylus　→　スタイル管理　→　新スタイルを作成  
+1. ~~twitter_style.cssの内容をコピペ~~  
+twitter_style_all.cssの内容をコピペ
+1. 適用先　→　＋　→　次で始まるURL で~~https://redmine.hogehoge/activity を入力(hogehogeは適宜urlを参照)~~  
+https://redmine.hogehoge/activity  
+https://redmine.hogehoge/issue  
+を入力(hogehogeは適宜urlを参照)
+
 
 ## chromeの場合
 firefoxとだいたい一緒です  
