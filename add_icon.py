@@ -29,7 +29,7 @@ b64 = base64.b64encode(buffered.getvalue()).decode()
 
 write_lines = [f'a.user[href="/users/{user_num}"] {{',
                f'  background-image: url(data:image/jpeg;base64,{b64});',
-               '  display: inlune-block;',
+               '  display: inline-block;',
                '  height: 78px;',
                '  background-position: 0px 18px;',
                '  background-repeat: no-repeat;',
