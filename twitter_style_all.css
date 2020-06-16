@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+/*履歴の文字色を白色にする。*/
+div#history{
+  color:#ffffff;
+}
+
 /*日付とか消す*/
 body.controller-activities div#content h2 {
     display: none;
